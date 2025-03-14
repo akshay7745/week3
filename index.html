@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 3 Assignment</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="./splider/splide.min.js" defer></script>
+    <link rel="stylesheet" href="./splider/splide.min.css" />
 </head>
 <body>
 <header>
@@ -39,11 +41,29 @@
     </div>
 </div>
 </section>
-<section>
+<section class="search">
     <div class="search-container">
         <input type="text" placeholder="Search" class="search-bar">
+        <img src="./assets/search.png" alt="search icon">
+    </div>
+    <div class="results-container">
+<div class="first-result">
+    <div class="result-img-container">
+        <img src="https://th.bing.com/th/id/R.394d42a12a654a01aff55a4ac589de48?rik=8meqYWp%2fRiAmDw&riu=http%3a%2f%2fstore.hp.com%2fUKStore%2fHtml%2fMerch%2fImages%2fc05475056_1750x1285.jpg&ehk=hFHW0bsoA4Vrq9NqTnBn9ZROJe9jXLuXOG2U%2bb2O7Wk%3d&risl=&pid=ImgRaw&r=0" alt="laptop ">
+    </div>
+    <div class="result-text-container">
+        <h2>Alt</h2>
+        <p>Photographer</p>
+        <button class="result-button">Explore More</button>
+    </div>
+</div>
+
+    </div>
+    <div class="similar-result">
+<div class="splide-slider-container"></div>
     </div>
 </section>
-    <script src="script.js"></script>
+
+    <script defer src="script.js"></script>
 </body>
 </html>
